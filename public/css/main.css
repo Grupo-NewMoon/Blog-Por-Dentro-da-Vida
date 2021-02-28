@@ -9,15 +9,37 @@
     --extra-bold:  800;
     --black:       900;
 
-    --pacifico: Pacifico, cursive;
+    --pacifico: Pacifico, serif;
     --cor-principal: #FF746E;
+    --cor-secundaria: #1F294C;
 }
 
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #FCF8F7;
+}
+
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- header -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1024;
+    background-color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 .social {
     height: 30px;
     width: 30px;
     background-color: var(--cor-principal);
+    transition: all 200ms;
+}
+
+.social:hover {
+    background-color: var(--cor-secundaria);
 }
 
 .flex-center {
@@ -36,4 +58,67 @@
 
 .redes-sociais {
     width: 110px;
+}
+
+.nav-link {
+    font-weight: var(--semi-bold);
+    color: var(--cor-secundaria) !important;
+}
+
+.nav-link:not(:first-child):not(.nav-link:nth-child(5)) {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.nav-link:first-child {
+    padding-right: 25px !important;
+}
+
+.nav-link:nth-child(5) {
+    padding-left: 25px !important;
+}
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- banner -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
+.banner-img {
+    width: 100% !important;
+    height: 600px !important;
+    object-fit: cover !important;
+}
+
+.banner-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text {
+    font-size: 27px;
+    line-height: 37px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    align-self: center;
+    max-height: 111px;
+}
+
+.banner-text::after {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    content: "";
+    width: 70px;
+    height: 2px;
+    background-color: #FF3D34;
+}
+
+.cervanttis {
+    font-size: 150px;
+    line-height: 360px;
+    color: #fff;
 }

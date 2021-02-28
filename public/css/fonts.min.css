@@ -17,3 +17,12 @@
 .fa-instagram::before { content: "\f16d" }
 .fa-facebook-f::before { content: "\f39e" }
 .fa-youtube::before { content: "\f167" }
+
+@font-face {
+    font-family: Cervanttis;
+    src: url("/webfonts/cervanttis.woff") format("woff");
+}
+
+.cervanttis {
+    font-family: Cervanttis, serif;
+}
