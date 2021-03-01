@@ -17,8 +17,16 @@
 body {
     font-family: "Source Sans Pro", sans-serif;
     background-color: #FCF8F7;
+    color: #7A7D86;
 }
 
+.root {
+    background-color: #FCF8F7;
+}
+
+.border-radius-0 {
+    border-radius: 0 !important;
+}
 
 /*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- header -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
 
@@ -121,4 +129,40 @@ header {
     font-size: 150px;
     line-height: 360px;
     color: #fff;
+}
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- bem-vindo -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
+.bem-vindo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.greeting {
+    line-height: 27px;
+}
+
+.greeting-1 {
+    font-size: 24px;
+    color: var(--cor-secundaria);
+}
+
+.greeting-2 {
+    color: var(--cor-principal);
+}
+
+.vamos-conversar {
+    font-size: 14px;
+    font-weight: var(--semi-bold);
+    background-color: var(--cor-principal);
+    color: #fff;
+    height: 45px;
+    width: 180px;
+}
+
+.vamos-conversar:hover {
+    color: #fff;
+    background-color: var(--cor-secundaria);
 }

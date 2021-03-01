@@ -8,7 +8,8 @@ export default function HeadContent(props) {
             <link rel="icon" href="/img/favicon.png" />
             <link rel="apple-touch-icon" href="favicon.png" />
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"/>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"/>
+            <link rel="stylesheet" href="/css/main.css" />
+            <link rel="stylesheet" href="/css/fonts.min.css" />
             <link rel="stylesheet" href="/css/main.css" />
             <link rel="stylesheet" href="/css/fonts.min.css" />
             <link rel="preconnect" href="https://fonts.gstatic.com" />
