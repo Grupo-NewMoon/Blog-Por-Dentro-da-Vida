@@ -28,6 +28,87 @@ body {
     border-radius: 0 !important;
 }
 
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.bg-main {
+    background-color: var(--cor-principal);
+}
+
+.bg-sec {
+    background-color: var(--cor-secundaria); !important;
+}
+
+.text-main {
+    color: var(--cor-principal) !important;
+}
+
+.text-sec {
+    color: var(--cor-secundaria); !important;
+}
+
+.fs-12 {
+    font-size: 12px !important;
+}
+
+.fs-27 {
+    font-size: 27px !important;
+}
+
+.fs-48 {
+    font-size: 48px !important;
+}
+
+.fs-56 {
+    font-size: 56px !important;
+}
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- SubLinhado -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
+.pacifico-title {
+    font-family: var(--pacifico);
+    font-weight: 300;
+    position: relative;
+}
+
+.pacifico-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 2px;
+    border-radius: 99px;
+}
+
+.line-red::after {
+    background-color: #FF3D34 !important;
+}
+
+.line-main::after {
+    background-color: var(--cor-principal) !important;
+}
+
+.fs-12 {
+    font-size: 12px !important;
+}
+
+.fs-27 {
+    font-size: 27px !important;
+    line-height: 44px !important;
+}
+
+.fs-48 {
+    font-size: 48px !important;
+    line-height: 81px !important;
+}
+
+.fs-56 {
+    font-size: 56px !important;
+    line-height: 95px !important;
+}
+
+
 /*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- header -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
 
 header {
@@ -54,14 +135,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.fs-12 {
-    font-size: 12px;
-}
-
-.cursor-pointer {
-    cursor: pointer;
 }
 
 .redes-sociais {
@@ -165,4 +238,22 @@ header {
 .vamos-conversar:hover {
     color: #fff;
     background-color: var(--cor-secundaria);
+}
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- propósito -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
+#meu-proposito {
+    height: 425px;
+    display: flex;
+    align-items: center;
+}
+
+.proposito-titulo {
+    font-size: 25px;
+    font-weight: var(--semi-bold);
+    color: #fff;
+}
+
+#coracao {
+    height: 45px;
 }

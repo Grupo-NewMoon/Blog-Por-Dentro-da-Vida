@@ -12,6 +12,7 @@ export default function HeadContent(props) {
             <link rel="stylesheet" href="/css/fonts.min.css" />
             <link rel="stylesheet" href="/css/main.css" />
             <link rel="stylesheet" href="/css/fonts.min.css" />
+            <link rel="stylesheet" href="https://use.typekit.net/din3oeo.css" />
             <link rel="preconnect" href="https://fonts.gstatic.com" />
             <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet" />
             <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
