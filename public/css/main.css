@@ -12,11 +12,13 @@
     --pacifico: Pacifico, serif;
     --cor-principal: #FF746E;
     --cor-secundaria: #1F294C;
+
+    --fundo-1: #FCF8F7;
+    --fundo-2: #FBFBFB;
 }
 
 body {
     font-family: "Source Sans Pro", sans-serif;
-    background-color: #FCF8F7;
     color: #7A7D86;
 }
 
@@ -50,6 +52,14 @@ body {
 
 .fs-12 {
     font-size: 12px !important;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.fs-20 {
+    font-size: 20px !important;
 }
 
 .fs-27 {
@@ -353,4 +363,58 @@ ul {
 
 .post-col:hover .post-title {
     transform: translateY(-5px);
+}
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- últimos eventos -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
+#ultimos-eventos {
+    margin-top: 140px;
+    height: 550px;
+}
+
+#eventos-heading {
+    margin-bottom: 0 !important;
+}
+
+#carrossel {
+    margin-top: 66px;
+}
+
+.chevron {
+    transition: color 250ms ease;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+    top: 50%;
+    margin-top: -15px;
+    transition: background-color 250ms ease;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: var(--fundo-1);
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover .chevron {
+    color: var(--cor-principal) !important;
+}
+
+.evento {
+    height: 200px;
+}
+
+#eventos-row {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.event-content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#ver-mais {
+    margin-bottom: 0 !important;
 }

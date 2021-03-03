@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Font Awesome 5 Solid";
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url("/webfonts/fa-solid-900.woff2") format("woff2"), url("/webfonts/fa-solid-900.woff") format("woff")
+}
+
+.fas {
+    font-family:"Font Awesome 5 Solid";
+}
+
+.fa-chevron-left::before { content: "\f053" }
+.fa-chevron-right::before { content: "\f054" }
