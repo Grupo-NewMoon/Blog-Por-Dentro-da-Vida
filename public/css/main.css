@@ -37,7 +37,7 @@ body {
 }
 
 .bg-sec {
-    background-color: var(--cor-secundaria); !important;
+    background-color: var(--cor-secundaria) !important;
 }
 
 .text-main {
@@ -45,7 +45,7 @@ body {
 }
 
 .text-sec {
-    color: var(--cor-secundaria); !important;
+    color: var(--cor-secundaria) !important;
 }
 
 .fs-12 {
@@ -256,4 +256,68 @@ header {
 
 #coracao {
     height: 45px;
+}
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- prévia posts -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
+section.container {
+    margin-top: 110px;
+}
+
+.prev-item {
+    width: 100%;
+    height: 280px;
+    transition: all ease 500ms;
+}
+
+.prev-item:hover {
+    transform: scale(1.1);
+}
+
+.linha-1 {
+    color: #fff;
+    font-family: var(--pacifico);
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.linha-2 {
+    color: #fff;
+    font-weight: var(--semi-bold);
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.linha-3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.pacifico-title.fs-48 {
+    margin-bottom: 0 !important;
+}
+
+.pacifico-title.fs-27::after {
+    width: 65px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.lista-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: space-between;
+}
+
+.conteudo-link {
+    text-decoration: none;
+    color: #7A7D86;
+}
+
+.conteudo-link:hover {
+    color: var(--cor-secundaria);
 }
