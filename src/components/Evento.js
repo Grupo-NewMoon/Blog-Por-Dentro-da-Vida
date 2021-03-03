@@ -11,7 +11,7 @@ export default function Evento(props) {
     }
 
     return (
-        <div className="col-3 evento flex-center">
+        <div className="col-3 evento flex-center bg-white">
             <div>
                 <div className="d-flex align-items-center">
                     <img src="/_next/image?url=%2Fimg%2Ficone-calendario.svg&w=1200&q=100" alt="cale" />

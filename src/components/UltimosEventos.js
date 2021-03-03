@@ -4,7 +4,7 @@ import Eventos from "./Eventos";
 
 export default function UltimosEventos() {
     return (
-        <div className="container-fluid p-0 bg-white flex-center flex-column" id="ultimos-eventos">
+        <div className="container-fluid p-0 flex-center flex-column" id="ultimos-eventos">
             <div className="container text-center">
                 <SubLinhado id="eventos-heading" textColor="sec" textSize="56" lineColor="main" linePosition="center">
                     Últimos Eventos

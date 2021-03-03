@@ -370,6 +370,7 @@ ul {
 #ultimos-eventos {
     margin-top: 140px;
     height: 550px;
+    background-color: var(--fundo-2);
 }
 
 #eventos-heading {
