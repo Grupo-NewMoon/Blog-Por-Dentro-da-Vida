@@ -1,21 +1,24 @@
 import React from 'react';
-import Image from 'next/image';
 import SubLinhado from "./SubLinhado";
 
 export default function PreviaPosts() {
     return (
-        <section className="container">
+        <section className="container" id="previa-posts">
             <div className="row">
                 <div className="col-9">
                     <div className="row">
-                        <div className="col-8 mb-4">
-                            <div className="overflow-hidden">
+                        <div className="col-8 mb-4 post-col">
+                            <div className="overflow-hidden position-relative">
                                 <img className="prev-item" src="/_next/image?url=%2Fimg%2Fprevia-trem.png&w=1200&q=75" alt="Prévia Trem"/>
+                                <div className="img-overlay" />
+                                <h2 className="post-title">O trem da vida não <br /> para pra você subir</h2>
                             </div>
                         </div>
-                        <div className="col-4 mb-4">
-                            <div className="overflow-hidden">
+                        <div className="col-4 mb-4 post-col">
+                            <div className="overflow-hidden position-relative">
                                 <img className="prev-item" src="/_next/image?url=%2Fimg%2Fprevia-ferias.png&w=1200&q=75" alt="Prévia Trem"/>
+                                <div className="img-overlay" />
+                                <h2 className="post-title">Volta de férias: <br /> alegria ou tristeza?</h2>
                             </div>
                         </div>
                         <div className="col-4">
@@ -25,9 +28,11 @@ export default function PreviaPosts() {
                                 <span className="linha-3">Artigos e posts</span>
                             </div>
                         </div>
-                        <div className="col-8">
-                            <div className="overflow-hidden">
+                        <div className="col-8 post-col">
+                            <div className="overflow-hidden position-relative">
                                 <img className="prev-item" src="/_next/image?url=%2Fimg%2Fprevia-paralisador.png&w=1200&q=75" alt="Prévia Trem"/>
+                                <div className="img-overlay" />
+                                <h2 className="post-title">O paralisador <br /> abraço do polvo</h2>
                             </div>
                         </div>
                     </div>
@@ -46,12 +51,13 @@ export default function PreviaPosts() {
                         <li><a href="#" className="conteudo-link">Ontem e hoje</a></li>
                         <li><a href="#" className="conteudo-link">Como se livrar das garras do polvo</a></li>
                     </ul>
-                    <SubLinhado textSize="27" textColor="sec" linePosition="start" lineColor="main">
-                        Ver tudo
-                    </SubLinhado>
+                    <a href="#" className="conteudo-link">
+                        <SubLinhado textSize="27" textColor="sec" linePosition="start" lineColor="main">
+                            Ver tudo
+                        </SubLinhado>
+                    </a>
                 </div>
             </div>
-
         </section>
     )
 }
