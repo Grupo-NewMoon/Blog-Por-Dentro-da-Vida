@@ -221,6 +221,8 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 110px;
+    padding-right: 14px;
+    padding-left: 14px;
 }
 
 .greeting {
@@ -418,4 +420,31 @@ ul {
 
 #ver-mais {
     margin-bottom: 0 !important;
+}
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- quem sou eu -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
+#quem-sou-eu {
+    padding-top: 140px;
+    padding-bottom: 240px;
+}
+
+.foto-rafaela {
+    margin-top: 34px;
+}
+
+.foto-footer {
+    height: 60px;
+    background-color: var(--cor-principal);
+    color: #fff;
+    font-size: 20px;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+}
+
+#sobre-mim-text {
+    padding-top: 50px;
 }

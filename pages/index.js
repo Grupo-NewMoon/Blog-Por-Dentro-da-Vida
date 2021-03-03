@@ -6,18 +6,20 @@ import Banner from "../src/components/Banner";
 import PreviaPosts from "../src/components/PreviaPosts";
 import BemVindo from "../src/components/BemVindo";
 import UltimosEventos from "../src/components/UltimosEventos";
+import QuemSouEu from "../src/components/QuemSouEu";
 
 
 export default function Home() {
     return (
         <div className="container-fluid p-0 root">
             <HeadContent title={'Por Dentro da Vida'} />
-            <Header />
+            {/*<Header />
             <Banner />
             <BemVindo />
             <PreviaPosts />
             <UltimosEventos />
-            <MeuProposito />
+            <MeuProposito />*/}
+            <QuemSouEu />
         </div>
     )
 }
