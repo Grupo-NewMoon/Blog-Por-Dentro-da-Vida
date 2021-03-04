@@ -460,3 +460,44 @@ ul {
 .logo-insta {
     font-size: 40px;
 }
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- fale conosco -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
+.fale-conosco-title {
+    font-family: Pacifico, serif;
+    font-weight: 300;
+    color: var(--cor-secundaria);
+    font-size: 56px;
+    margin-bottom: 0;
+}
+
+.fale-conosco-sub {
+    color: var(--cor-principal);
+    font-size: 20px;
+}
+
+.fale-conosco {
+    position: relative;
+}
+
+.fale-conosco::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    border-radius: 99px;
+    background-color: var(--cor-principal);
+}
+
+.text-input {
+    background-color: #FCFCFC;
+    border-color: #F1F1F1;
+    height: 50px;
+}
+
+textarea {
+    background-color: #FCFCFC !important;
+    border-color: #F1F1F1 !important;
+}

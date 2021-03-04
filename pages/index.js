@@ -8,6 +8,7 @@ import BemVindo from "../src/components/BemVindo";
 import UltimosEventos from "../src/components/UltimosEventos";
 import QuemSouEu from "../src/components/QuemSouEu";
 import Instagram from "../src/components/Instagram";
+import FaleConosco from "../src/components/FaleConosco";
 
 
 export default function Home() {
@@ -20,8 +21,9 @@ export default function Home() {
             <PreviaPosts />
             <UltimosEventos />
             <MeuProposito />
-            <QuemSouEu />*/}
-            <Instagram />
+            <QuemSouEu />
+            <Instagram />*/}
+            <FaleConosco />
         </div>
     )
 }
