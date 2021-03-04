@@ -16,7 +16,7 @@ export default function Home() {
     return (
         <div className="container-fluid p-0 root">
             <HeadContent title={'Por Dentro da Vida'} />
-            {/*<Header />
+            <Header />
             <Banner />
             <BemVindo />
             <PreviaPosts />
@@ -24,7 +24,7 @@ export default function Home() {
             <MeuProposito />
             <QuemSouEu />
             <Instagram />
-            <FaleConosco />*/}
+            <FaleConosco />
             <Footer />
         </div>
     )

@@ -427,6 +427,7 @@ ul {
 #quem-sou-eu {
     padding-top: 140px;
     padding-bottom: 240px;
+
 }
 
 .foto-rafaela {
@@ -461,6 +462,10 @@ ul {
     font-size: 40px;
 }
 
+#insta-container {
+    transform: translateY(-97px);
+}
+
 /*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- fale conosco -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
 
 .fale-conosco-title {
@@ -474,6 +479,10 @@ ul {
 .fale-conosco-sub {
     color: var(--cor-principal);
     font-size: 20px;
+}
+
+#fale-conosco {
+    padding-bottom: 115px !important;
 }
 
 .fale-conosco {
