@@ -448,3 +448,15 @@ ul {
 #sobre-mim-text {
     padding-top: 50px;
 }
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- insta -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
+.siga-no-insta {
+    height: 194px;
+    width: 194px;
+    background-color: var(--cor-principal);
+}
+
+.logo-insta {
+    font-size: 40px;
+}

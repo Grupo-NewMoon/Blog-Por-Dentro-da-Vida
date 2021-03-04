@@ -7,6 +7,7 @@ import PreviaPosts from "../src/components/PreviaPosts";
 import BemVindo from "../src/components/BemVindo";
 import UltimosEventos from "../src/components/UltimosEventos";
 import QuemSouEu from "../src/components/QuemSouEu";
+import Instagram from "../src/components/Instagram";
 
 
 export default function Home() {
@@ -18,8 +19,9 @@ export default function Home() {
             <BemVindo />
             <PreviaPosts />
             <UltimosEventos />
-            <MeuProposito />*/}
-            <QuemSouEu />
+            <MeuProposito />
+            <QuemSouEu />*/}
+            <Instagram />
         </div>
     )
 }
