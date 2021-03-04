@@ -9,6 +9,7 @@ import UltimosEventos from "../src/components/UltimosEventos";
 import QuemSouEu from "../src/components/QuemSouEu";
 import Instagram from "../src/components/Instagram";
 import FaleConosco from "../src/components/FaleConosco";
+import Footer from "../src/components/Footer";
 
 
 export default function Home() {
@@ -22,8 +23,9 @@ export default function Home() {
             <UltimosEventos />
             <MeuProposito />
             <QuemSouEu />
-            <Instagram />*/}
-            <FaleConosco />
+            <Instagram />
+            <FaleConosco />*/}
+            <Footer />
         </div>
     )
 }
