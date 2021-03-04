@@ -10,6 +10,7 @@ import QuemSouEu from "../src/components/QuemSouEu";
 import Instagram from "../src/components/Instagram";
 import FaleConosco from "../src/components/FaleConosco";
 import Footer from "../src/components/Footer";
+import Image from 'next/image';
 
 
 export default function Home() {

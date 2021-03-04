@@ -5,7 +5,7 @@ export default function Banner() {
     return (
         <div className="container-fluid p-0 position-relative" id="banner">
             {/*<Image src="/img/banner.png" alt="Banner" className="banner-img" layout="fill" objectFit="cover" />*/}
-            <img src="http://localhost:3000/_next/image?url=%2Fimg%2Fbanner.png&w=3840&q=100" alt="Banner" className="banner-img" />
+            <img src="/_next/image?url=%2Fimg%2Fbanner.png&w=3840&q=100" alt="Banner" className="banner-img" />
             <section className="container banner-section">
                 <div className="row w-100">
                     <div className="col-6" />
