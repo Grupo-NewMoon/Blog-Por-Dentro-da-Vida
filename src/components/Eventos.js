@@ -4,7 +4,7 @@ import Evento from "./Evento";
 
 export default function Eventos() {
     return (
-        <div className="row justify-content-between" id="eventos-row">
+        <div className="row justify-content-between align-items-center" id="eventos-row">
             <Evento date="Agosto de 2020" live={true}>
                 Maternidade em Tempos de Isolamento Social
             </Evento>
