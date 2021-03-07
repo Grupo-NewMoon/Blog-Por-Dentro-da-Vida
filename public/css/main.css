@@ -14,7 +14,7 @@
     --cor-secundaria: #1F294C;
 
     --fundo-1: #FCF8F7;
-    --fundo-2: #FBFBFB;
+    --fundo-2: #fbfbfb;
 }
 
 body {
@@ -128,6 +128,7 @@ header {
     background-color: #fff;
     padding-top: 5px;
     padding-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05)  0 5px 75px;
 }
 
 .social {
@@ -518,4 +519,73 @@ textarea {
 footer {
     height: 75px;
     background-color: var(--cor-secundaria);
+}
+
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-*/
+    /*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- post -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+.post-heading {
+    font-family: var(--pacifico);
+    font-size: 72px;
+    font-weight: 300;
+    color: var(--cor-secundaria);
+    text-align: center;
+    margin-top: 60px;
+}
+
+#post-date-row::before, #post-date-row::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #FF3D34;
+    border-radius: 99px;
+}
+
+.post-date {
+    color: var(--cor-principal);
+    font-size: 14px;
+    position: relative;
+    padding-right: 10px;
+}
+
+.calendar-icon {
+    padding-left: 10px;
+}
+
+.destaque-img {
+    margin-top: 65px !important;
+}
+
+.fundo {
+    height: 350px;
+    background-color: var(--fundo-1);
+}
+
+section p {
+    font-size: 20px;
+    color: var(--cor-secundaria);
+    margin-bottom: 40px;
+}
+
+.main-text {
+    margin-top: 350px;
+}
+
+blockquote {
+    width: 720px;
+    margin: 60px auto;
+    color: var(--cor-secundaria);
+    font-size: 25px;
+    font-style: italic;
+    position: relative;
+}
+
+blockquote::before {
+    content: url("/img/aspas.svg");
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+    left: -50px;
 }
