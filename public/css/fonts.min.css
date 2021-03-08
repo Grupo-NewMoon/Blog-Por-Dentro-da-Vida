@@ -2,7 +2,7 @@
  * Font Awesome Free 5.8.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@font-face {
+/*@font-face {
     font-family: "Font Awesome 5 Brands";
     font-style: normal;
     font-weight: normal;
@@ -17,6 +17,9 @@
 .fa-instagram::before { content: "\f16d" }
 .fa-facebook-f::before { content: "\f39e" }
 .fa-youtube::before { content: "\f167" }
+.fa-facebook-square::before { content: "\f082" }
+.fa-twitter::before { content: "\f099" }
+.fa-linkedin::before { content: "\f08c" }*/
 
 @font-face {
     font-family: Cervanttis;

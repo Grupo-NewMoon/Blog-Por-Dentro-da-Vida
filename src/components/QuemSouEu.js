@@ -3,7 +3,7 @@ import SubLinhado from "./SubLinhado";
 
 export default function QuemSouEu() {
     return (
-        <section className="container" id="quem-sou-eu">
+        <div className="container" id="quem-sou-eu">
             <div className="row">
                 <div className="col-4">
                     <SubLinhado textColor="sec" textSize="56" lineColor="main" linePosition="start">
@@ -27,6 +27,6 @@ export default function QuemSouEu() {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }

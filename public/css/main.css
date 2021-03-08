@@ -13,7 +13,7 @@
     --cor-principal: #FF746E;
     --cor-secundaria: #1F294C;
 
-    --fundo-1: #FCF8F7;
+    --fundo-1: #fcf8f7;
     --fundo-2: #fbfbfb;
 }
 
@@ -429,8 +429,6 @@ ul {
 
 #quem-sou-eu {
     padding-top: 140px;
-    padding-bottom: 240px;
-
 }
 
 .foto-rafaela {
@@ -466,7 +464,7 @@ ul {
 }
 
 #insta-container {
-    transform: translateY(-97px);
+    margin-top: 140px;
 }
 
 /*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- fale conosco -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
@@ -486,6 +484,7 @@ ul {
 
 #fale-conosco {
     padding-bottom: 115px !important;
+    margin-top: 120px;
 }
 
 .fale-conosco {
@@ -526,6 +525,10 @@ footer {
     /*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- post -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
 /*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-*/
 
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- título -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
+
 .post-heading {
     font-family: var(--pacifico);
     font-size: 72px;
@@ -563,6 +566,8 @@ footer {
     background-color: var(--fundo-1);
 }
 
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- texto -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
 section p {
     font-size: 20px;
     color: var(--cor-secundaria);
@@ -588,4 +593,109 @@ blockquote::before {
     z-index: -1;
     top: -30px;
     left: -50px;
+}
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- compartilhe -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
+.gostou {
+    padding-top: 20px;
+    font-weight: var(--semi-bold);
+}
+
+.gostou, .compartilhe {
+    font-size: 20px;
+    color: var(--cor-secundaria);
+    display: block;
+}
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 15px;
+    height: 44px;
+    font-size: 14px;
+    font-weight: var(--semi-bold);
+    color: #fff;
+}
+
+.social-btn:hover {
+    color: #fff;
+}
+
+.facebook-square-btn, .linkedin-btn {
+    background-color: #23599B;
+}
+
+.twitter-btn {
+    background-color: #00A2F5;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- autor -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
+#autor {
+    margin-top: 70px;
+}
+
+.autor {
+    background-color: var(--fundo-1);
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.nome-autor {
+    font-size: 25px;
+    font-weight: var(--semi-bold);
+    color: var(--cor-secundaria);
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.nome-autor::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 40px;
+    background-color: var(--cor-principal);
+    border-radius: 99px;
+}
+
+.foto-autor {
+    padding-left: 18px;
+    padding-right: 30px
+}
+
+.autor-icons {
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--cor-principal);
+}
+
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- últimas publicações -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+
+#ultimas {
+    width: 970px;
+    margin-top: 50px;
+}
+
+.ultimas-body {
+    color: var(--cor-principal);
+    font-size: 14px;
+}
+
+.ultimas-title {
+    font-size: 25px;
+    font-weight: var(--semi-bold);
+    color: var(--cor-secundaria);
+}
+
+#ultimas-publicacoes {
+    margin-top: 115px;
 }

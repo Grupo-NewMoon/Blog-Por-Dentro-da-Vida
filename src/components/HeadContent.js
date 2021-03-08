@@ -16,6 +16,7 @@ export default function HeadContent(props) {
             <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet" />
             <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" />
+            <script src="https://kit.fontawesome.com/862ff8d067.js" crossOrigin="anonymous" />
         </Head>
     )
 }
