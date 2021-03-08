@@ -14,8 +14,10 @@ export default function Evento(props) {
         <div className="col-3 evento flex-center bg-white">
             <div>
                 <div className="d-flex align-items-center">
-                    <img src="/_next/image?url=%2Fimg%2Ficone-calendario.svg&w=1200&q=100" alt="cale" />
-                    <span className="text-main ps-2 fs-14">{props.date} <span className="text-sec">|</span> Online{live}</span>
+                    <div className="d-inline-flex align-items-center text-main fs-14">
+                        <span className="fas fa-calendar-alt" />
+                        <span className="text-main ps-2 fs-14">{props.date} <span className="text-sec">|</span> Online{live}</span>
+                    </div>
                 </div>
 
                 <div className="pt-3">
