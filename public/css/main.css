@@ -559,6 +559,15 @@ footer {
     margin-top: 60px;
 }
 
+.fundo-post {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-color: var(--fundo-1);
+    height: 350px;
+    width: 100%;
+}
+
 #post-date-row::before, #post-date-row::after {
     content: "";
     width: 50px;
@@ -582,10 +591,6 @@ footer {
     margin-top: 65px !important;
 }
 
-.fundo {
-    height: 350px;
-    background-color: var(--fundo-1);
-}
 
 /*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- texto -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
 
@@ -596,7 +601,7 @@ section p {
 }
 
 .main-text {
-    margin-top: 350px;
+    margin-top: 80px;
 }
 
 blockquote {
@@ -719,4 +724,13 @@ blockquote::before {
 
 #ultimas-publicacoes {
     margin-top: 115px;
+}
+
+.fundo-post-2 {
+    position: absolute;
+    top: 265px;
+    z-index: -1;
+    background-color: var(--fundo-1);
+    height: 490px;
+    width: 100%;
 }
