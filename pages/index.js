@@ -10,12 +10,11 @@ import QuemSouEu from "../src/components/QuemSouEu";
 import Instagram from "../src/components/Instagram";
 import FaleConosco from "../src/components/FaleConosco";
 import Footer from "../src/components/Footer";
-import Image from 'next/image';
 
 
 export default function Home() {
     return (
-        <div className="container-fluid p-0 root">
+        <div className="container-fluid p-0">
             <HeadContent title={'Por Dentro da Vida'} />
             <Header />
             <Banner />

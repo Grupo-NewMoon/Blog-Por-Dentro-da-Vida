@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Instagram() {
     return (
-        <div className="container-fluid p-0 bg-white">
+        <div className="container-fluid p-0">
             <div className="container" id="insta-container">
                 <div className="row">
                     <div className="col-12 d-flex justify-content-center">

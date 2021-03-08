@@ -34,6 +34,10 @@ body {
     cursor: pointer !important;
 }
 
+.bg-fundo-1 {
+    background-color: var(--fundo-1);
+}
+
 .bg-main {
     background-color: var(--cor-principal);
 }
@@ -274,7 +278,16 @@ header {
 /*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- prévia posts -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
 
 #previa-posts {
-    margin-top: 110px;
+    padding-top: 110px;
+}
+
+.fundo-previa {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-color: var(--fundo-1);
+    height: calc(100% + 140px);
+    width: 100%;
 }
 
 .prev-item {
@@ -373,7 +386,6 @@ ul {
 #ultimos-eventos {
     margin-top: 140px;
     height: 550px;
-    background-color: var(--fundo-2);
 }
 
 #eventos-heading {
@@ -429,6 +441,15 @@ ul {
 
 #quem-sou-eu {
     padding-top: 140px;
+}
+
+.fundo-sobre-mim {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-color: var(--fundo-1);
+    height: calc(100% + 237px);
+    width: 100%;
 }
 
 .foto-rafaela {
