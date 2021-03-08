@@ -732,5 +732,5 @@ blockquote::before {
     z-index: -1;
     background-color: var(--fundo-1);
     height: 490px;
-    width: 100%;
+    width: 100%
 }
