@@ -17,6 +17,15 @@
     --fundo-2: #fbfbfb;
 }
 
+@font-face {
+    font-family: Cervanttis;
+    src: url("/webfonts/cervanttis.woff") format("woff");
+}
+
+.cervanttis {
+    font-family: Cervanttis, serif;
+}
+
 body {
     font-family: "Source Sans Pro", sans-serif;
     color: #7A7D86;
