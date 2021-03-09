@@ -481,7 +481,7 @@ ul {
     padding-top: 50px;
 }
 
-/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- insta -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
+/*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- instagram -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
 
 .siga-no-insta {
     height: 194px;
@@ -496,6 +496,49 @@ ul {
 #insta-container {
     margin-top: 140px;
 }
+
+.insta-link {
+    height: 194px;
+    width: 194px;
+    overflow: hidden;
+    position: relative;
+}
+
+.insta-link:hover .insta-img-overlay {
+    opacity: 1;
+}
+
+.insta-link:hover .insta-text-overlay {
+    transform: translateY(-10px);
+}
+
+.insta-link:hover .insta-img {
+    transform: scale(1.05);
+}
+
+.insta-img-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0) 57%);
+    opacity: 0;
+    transition: opacity 500ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.insta-text-overlay {
+    color: #fff;
+    font-size: 20px;
+    transition: all 500ms ease;
+}
+
+.insta-img {
+    transition: transform 500ms ease;
+}
+
 
 /*-=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=- fale conosco -=-=-=-=--=-=-=-=--=-=-=-=--=-=-=-=-*/
 
